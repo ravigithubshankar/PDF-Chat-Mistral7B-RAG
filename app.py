@@ -54,7 +54,7 @@ def create_conversational_chain(vector_store):
     # Create llm
     llm = LlamaCpp(
     streaming = True,
-    model_path="/home/ravi/Desktop/MultiPDFchatMistral-7B/mistral-7b-instruct-v0.1.Q4_K_M.gguf",
+    model_path="mistral-7b-instruct-v0.1.Q4_K_M.gguf",
     temperature=0.75,
     top_p=1, 
     verbose=True,
