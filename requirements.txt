@@ -9,5 +9,5 @@ tiktoken
 huggingface-hub
 pypdf
 llama-cpp-python
-
+langchain_community
 
