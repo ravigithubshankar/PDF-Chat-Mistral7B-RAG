@@ -13,5 +13,20 @@ This system integrates the Retrieval-Augmented Generation (RAG) framework with t
 
     Install required dependencies:
     pip install torch transformers faiss-cpu pymupdf sentence-transformers
-### 3.  Run the System:
+
+### 3.If using a GPU, install GPU-specific PyTorch:
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+### 4. Clone the Repository:
+
+    Clone or download the project files:
+    git clone https://github.com/ravigithubshankar/PDF-Chat-Mistral7B-RAG.git
+    cd PDF-Chat-Mistral7B-RAG
+
+
+### 5. Start the RAG + Mistral question-answering system::
       python3 app.py
+
+### 6.Output:
+
+    The system will retrieve relevant document excerpts, generate a contextually appropriate answer, and display it in the console or API response.
